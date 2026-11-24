@@ -78,12 +78,13 @@ let error = document.getElementById('error');
     let sm = document.getElementById('err');
     try{
        let x=num.value;
-       if(x<5) throw 'Number is too low';
+       if(x<5) throw 'Number is to low';
        if(x>10) throw 'number is too high';
 
     }catch(error){
         //console.log(`the error is  ${error}`);
         sm.textContent=`the error is ${error}`;
     }
- }
+
+ } 
   
